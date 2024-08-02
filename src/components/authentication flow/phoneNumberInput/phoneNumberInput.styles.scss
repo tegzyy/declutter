@@ -1,0 +1,28 @@
+.phone-number-input {
+    margin-left: 0px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.phone-number-input label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.phone-number-input input {
+    width: calc(100% - 50px);
+    
+    box-sizing: border-box;
+    background: none;
+    background-color: white;
+    color: grey;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    border: 1px solid gray;
+    border-radius: 9999px;
+    border-bottom: 1px solid gray;
+    margin-top: 10px;
+}
