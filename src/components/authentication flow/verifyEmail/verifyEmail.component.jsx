@@ -7,7 +7,7 @@ import "./verifyEmail.styles.scss"
 
 
 
-function VerifyEmail(){
+const VerifyEmail = () => {
     const [otp, setOtp] = useState('')
     const [isFocused, setIsFocused] = useState(false)
 
