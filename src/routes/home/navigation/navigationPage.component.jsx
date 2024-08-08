@@ -1,6 +1,7 @@
-import Declutters from "../../../buttons/icons/declutterlogo";
+import Declutters from "../../../components/buttons/icons/declutterlogo";
 import { Link, Outlet } from "react-router-dom";
 import { Fragment } from "react"
+import './navigation.styles.scss'
 
 function Navigation(){
     return(

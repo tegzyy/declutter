@@ -30,7 +30,7 @@ const PhoneNumberInput = () => {
 
     const handleBlur = () => {
         if (!validatePhoneNumber(phoneNumber)) {
-            alert('Please enter a valid 10-digit phone number');
+            // alert('Please enter a valid 10-digit phone number');
         }
     };
 
